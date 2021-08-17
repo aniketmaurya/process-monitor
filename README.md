@@ -1,4 +1,4 @@
-# process-monitor-bot
+# process-monitor (Bot)
 
 
 ## Install
