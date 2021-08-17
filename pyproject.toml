@@ -2,18 +2,16 @@
 requires = ["flit_core >=2,<4"]
 build-backend = "flit_core.buildapi"
 
-requires = [
-    "python-dotenv",
-    "slack_sdk",
-]
-
 [tool.flit.metadata]
 module = "ps_monitor"
 author = "Aniket Maurya"
 author-email = "hello@aniketmaurya.com"
 home-page = "https://docs.bot.com"
 classifiers = [ "License :: OSI Approved :: MIT License",]
-
+requires = [
+    "python-dotenv",
+    "slack_sdk",
+]
 
 [tool.flit.scripts]
 ps-bot = "bot.main:main"
