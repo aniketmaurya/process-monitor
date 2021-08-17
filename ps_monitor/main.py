@@ -7,9 +7,7 @@ parser = argparse.ArgumentParser(description="Process some integers.")
 parser.add_argument(
     "pid", type=int, help="Process ID of the process to monitor. os.getpid()"
 )
-parser.add_argument(
-    "delay", type=int, default=1, help="Delay in Minutes"
-)
+parser.add_argument("delay", type=int, default=1, help="Delay in Minutes")
 
 path = os.path.dirname(__file__)
 

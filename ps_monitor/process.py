@@ -20,6 +20,7 @@ class ProcessNotification:
             raise UserWarning(f"No process with pid={pid}")
 
         self.running = True
+        print(f"Process selected={self.process}")
 
     def exist_process(self):
         pid = self.pid
