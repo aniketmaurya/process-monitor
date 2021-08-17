@@ -1,5 +1,4 @@
 import argparse
-import json
 import os
 
 from ps_monitor.process import ProcessNotification
@@ -13,9 +12,6 @@ parser.add_argument(
 )
 
 path = os.path.dirname(__file__)
-
-with open(f"{path}/../configs/slack_conf.json", "r") as fr:
-    slack_conf = json.loads(fr.read())
 
 
 def main():
