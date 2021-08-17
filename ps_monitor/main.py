@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-from bot.process import ProcessNotification
+from ps_monitor.process import ProcessNotification
 
 parser = argparse.ArgumentParser(description="Process some integers.")
 parser.add_argument(

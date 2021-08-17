@@ -5,11 +5,10 @@ from slack_sdk import WebClient
 
 path = os.path.dirname(__file__)
 load_dotenv()
-with open(f"{path}/../configs/slack_conf.json", "r") as fr:
-    slack_conf = json.loads(fr.read())
+
 
 slack_token = os.environ["SLACK_BOT_TOKEN"]
-channel = slack_conf["channel"]
+channel = os.environ["SLACK_CHANNEL"]
 client = WebClient(token=slack_token)
 
 
