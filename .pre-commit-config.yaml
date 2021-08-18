@@ -23,15 +23,6 @@ repos:
         args: [ "--profile black" ]
         files: ps_monitor tests
 
-  - repo: local
-    hooks:
-      - id: clean
-        name: clean
-        entry: make
-        args: [ "clean" ]
-        language: system
-        pass_filenames: false
-
   - repo: https://github.com/kynan/nbstripout
     rev: 0.5.0
     hooks:
