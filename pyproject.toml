@@ -6,7 +6,7 @@ build-backend = "flit_core.buildapi"
 module = "ps_monitor"
 author = "Aniket Maurya"
 author-email = "hello@aniketmaurya.com"
-home-page = "https://docs.bot.com"
+home-page = "https://github.com/aniketmaurya/process-monitor"
 classifiers = [ "License :: OSI Approved :: MIT License",]
 requires = [
     "python-dotenv",
@@ -14,4 +14,4 @@ requires = [
 ]
 
 [tool.flit.scripts]
-ps-bot = "bot.main:main"
+ps-bot = "ps_monitor.main:main"

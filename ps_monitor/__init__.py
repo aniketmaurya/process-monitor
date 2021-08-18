@@ -1,3 +1,3 @@
-"""A Slack Process Monitor Bot"""
+"""A Simple Process Monitoring tool"""
 
-__version__ = "21.08.17"
+__version__ = "21.08.18"
