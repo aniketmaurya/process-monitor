@@ -2,7 +2,7 @@
 
 
 ## Install
-```pip install git+https://github.com/aniketmaurya/process-monitor-bot@main```
+```pip install git+https://github.com/aniketmaurya/process-monitor@main```
 
 ## How to use?
 First export slack bot token and channel id to env variable.
